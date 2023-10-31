@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: tdmy
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-kbxk-tenant/byoc-app-ttcy/tdmy@sha256:dabb5e32d81dba557a739b362d9227deee7153baa6d7a0f401ab24c4706e4128
         name: my-java-quarkus
         ports:
         - containerPort: 8081
